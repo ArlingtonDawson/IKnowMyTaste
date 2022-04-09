@@ -1,0 +1,12 @@
+{
+  "name": "I Know My Taste",
+  "description": "Removes the recommended and popular sections from Twitch.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [ "https://*.twitch.tv/*" ],
+      "js": [ "content.js" ]
+    }
+  ]
+}
