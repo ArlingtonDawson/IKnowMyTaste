@@ -8,7 +8,6 @@ function nodeInsertedCallback(event) {
         event.srcElement.style.display = "none";
     }
 
-    console.log(event)
     var divs = document.querySelectorAll('div[class$="find-me"]');
     console.log("Recommened: " + divs.length);
 
